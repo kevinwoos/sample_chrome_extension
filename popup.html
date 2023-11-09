@@ -1,16 +1,22 @@
-<!DOCTYPE html>
-<!-- <html lang=en> -->
-<meta charset=utf-8>
-
+<!doctype html>
+<html app="popupApp">
 <head>
-    <link rel="stylesheet" href="button.css">
-    <script src="popup.js"></script>
+  <title>Earth2 Quicker</title>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="css/popup.css">
 </head>
-
 <body>
-    <h2>Earth2</h2>
-    <input type="text" id="urlInput" placeholder="EPL을 입력하세요">>
-    <button id="openButton">Open</button>
-</body>
+<div class="wrap">
+  <div class="elink">
+    <form>
+      <div class="url">
+        <input id="urlInput" type="text" placeholder="EPL을 입력하세요">
+      </div>
+      <button id="openButton"  class="btn">열기</button>
+    </form>
+  </div>
+</div>
 
+<script src="js/popup.js"></script>
+</body>
 </html>

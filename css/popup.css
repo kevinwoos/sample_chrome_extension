@@ -1,0 +1,39 @@
+.wrap {
+  width:265px;
+  height: 30px;
+  padding: 5px;
+}
+.wrap .elink {
+  float: left;
+  width: 270px;
+  height: 30px;
+}
+.wrap .elink .url {
+  display: inline-block;
+  height: 30px;
+  background: #fff;
+}
+.wrap .elink .url input {
+  display: inline-block;
+  width: 210px;
+  height: 28px;
+  padding: 0 6px;
+  font-size: 12px;
+  line-height: 28px;
+  outline: 0;
+  color: #000 !important;
+  background: #fff !important;
+  border: 1px solid #ccc;
+}
+.wrap .elink .btn {
+  display: inline-block;
+  position: relative;
+  margin-left: -3px;
+  width: 40px;
+  height: 30px;
+  line-height: 28px;
+  border: 1px solid #ccc;
+  border-left: none;
+  text-align: center;
+  clear: both;
+}

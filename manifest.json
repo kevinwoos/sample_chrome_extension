@@ -1,6 +1,6 @@
 {
-  "name": "내 웹페이지 열기 확장 프로그램",
-  "description": "입력한 URL을 열어주는 간단한 확장 프로그램",
+  "name": "EPL 열기 확장 프로그램",
+  "description": "Earth2 EPL 열어주는 확장 프로그램",
   "version": "1.0",
   "manifest_version": 3,
   "background": {
